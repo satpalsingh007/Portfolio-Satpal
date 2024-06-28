@@ -22,9 +22,9 @@ const Body = () => {
                     <div className="phone">
                         <b className="my-contacts">phone: </b>+91 8533829893
                     </div>
-                    <a href={my} download="my.jpg" className="download-resume">
-                        Resume
-                    </a>
+                    // <a href={my} download="my.jpg" className="download-resume">
+                    //     Resume
+                    // </a>
                 </div>
             </div>
         </div>
