@@ -65,7 +65,8 @@ rgba(239,56,40,255)
     gap: 3rem;
     padding: 0 10vw;
     height: 100vh;
-    padding-top: 20vh;
+    padding-top: 21vh;
+    text-align: center;
 }
 .my-contacts {
     color: rgba(239, 56, 40, 255);
@@ -170,6 +171,67 @@ rgba(239,56,40,255)
     justify-content: center;
     height: 60vh;
     gap: 2vw;
+}
+
+/* Technology component */
+.technologies {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+}
+.technologies-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 70vw;
+    gap: 3vw;
+}
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 10vw;
+}
+
+.fa-brands {
+    font-size: 5vw;
+    text-align: center;
+}
+.fa-brands:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.fa-mongo {
+    width: 5vw;
+}
+.fa-express {
+    width: 5vw;
+}
+
+.fa-html5:hover {
+    color: orangered;
+}
+.fa-css3-alt:hover {
+    color: blue;
+}
+.fa-js:hover {
+    color: yellow;
+}
+.fa-react:hover {
+    color: lightblue;
+}
+.fa-node:hover {
+    color: green;
+}
+.fa-mongo:hover {
+    fill: rgb(97, 177, 5);
+}
+.fa-java:hover {
+    color: rgb(56, 5, 132);
 }
 
 /* Footer component */
