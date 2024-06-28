@@ -1,7 +1,9 @@
+import logo from "../src/images/logo2.png";
 const Header = () => {
     return (
         <div className="header">
-            <div className="logo">logo</div>
+            <img className="logo" src={logo} />
+
             <div className="header-comp">
                 <div className="header-comps">about-me</div>
                 <div className="header-comps">projects</div>
