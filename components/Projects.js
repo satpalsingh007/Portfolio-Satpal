@@ -1,6 +1,7 @@
 import ben10Api from "../src/images/ben10Api.jpg";
 import unplanned from "../src/images/unplanned.jpg";
 import forkify from "../src/images/forkify.jpg";
+
 const Projects = () => {
     return (
         <div className="projects component">
@@ -15,7 +16,7 @@ const Projects = () => {
                     target="_blank"
                 >
                     <img className="project-image" src={ben10Api} />
-                    <div>Ben-10 Api</div>
+                    <div className="project-name">Ben-10 Api</div>
                     <div>
                         This api allows you to search for your favorite Ben 10
                         character
@@ -35,11 +36,12 @@ const Projects = () => {
                     target="_blank"
                 >
                     <img className="project-image" src={unplanned} />
-                    <div>Unplanned</div>
+                    <div className="project-name">Unplanned</div>
                     <div>
                         This is an your own travel Guide, it's having a bot name
                         ~Destina which will be your private destination guide
                     </div>
+                    <div>API used: Google Gemini, Geocode, Leaflet</div>
                     <ul>
                         <li>Node.js</li>
                         <li>Express</li>
@@ -55,18 +57,16 @@ const Projects = () => {
                     target="_blank"
                 >
                     <img className="project-image" src={forkify} />
-                    <div>forkify</div>
+                    <div className="project-name">Forkify</div>
                     <div>
                         This web app allows you to search for dishes from the
                         ingriedients you search.
                     </div>
+                    <div>API used: Forkify Api</div>
                     <ul>
-                        <li>Node.js</li>
-                        <li>Express</li>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
-                        <li>MongoDb</li>
                     </ul>
                 </a>
             </div>
